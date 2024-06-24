@@ -1,0 +1,49 @@
+:root {
+  --color-primary-dark: hsl(158, 36%, 37%);
+  --color-primary-light: hsl(30, 38%, 92%);
+  --color-neutral-dark: hsl(212, 21%, 14%);
+  --color-neutral-medium: hsl(228, 12%, 48%);
+  --color-neutral-light: hsl(0, 0%, 100%);
+
+  --font-weight-light: 500;
+  --font-weight-bold: 700;
+  --font-style: normal;
+
+}
+
+.font-montserrat-light
+{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: var(--font-weight-light);
+  font-style: var(--font-style);
+}
+
+.font-montserrat-bold
+{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: var(--font-weight-bold);
+  font-style: var(--font-style)
+}
+
+.fraunces-bold
+{
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: var(--font-weight-bold);
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+body {
+  background-color: red;
+}
+
+@media screen and ( min-width:1440px ) {
+  body {
+    background-color: blue;
+  }
+}
